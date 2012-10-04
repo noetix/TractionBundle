@@ -1,0 +1,19 @@
+{
+    "name": "noetix/traction-bundle",
+    "type": "symfony-bundle",
+    "description": "Traction API bundle for Symfony2",
+    "authors": [
+        {
+            "name": "Alex Joyce",
+            "email": "im@alex-joyce.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "noetix/traction-php": "*"
+    },
+    "autoload": {
+        "psr-0": { "noetix\\TractionBundle": "" }
+    },
+    "target-dir": "noetix/TractionBundle"
+}

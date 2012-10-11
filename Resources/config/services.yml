@@ -7,4 +7,3 @@ services:
                 user_id:     "%noetix_traction.user_id%"
                 password:    "%noetix_traction.password%"
                 endpoint_id: "%noetix_traction.endpoint_id%"
-                test:        "%noetix_traction.test%"

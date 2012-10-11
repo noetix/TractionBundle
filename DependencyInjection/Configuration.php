@@ -35,9 +35,6 @@ class Configuration implements ConfigurationInterface
                 ->scalarNode('endpoint_id')
                     ->isRequired()
                 ->end()
-                ->booleanNode('test')
-                    ->defaultFalse()
-                ->end()
             ->end()
         ;
 

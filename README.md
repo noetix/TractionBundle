@@ -30,7 +30,7 @@ Configure the bundle in `config.yml`:
 ### Dynamic API
 
     noetix_traction:
-	    endpoint_id: notused
+        endpoint_id: notused
         user_id:     notused
         password:    fantastic_password
         connection:	  2n5e7b2r8qkx07dy2ctd

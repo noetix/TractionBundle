@@ -25,7 +25,7 @@ class noetixTractionExtension extends Extension
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
 
-        foreach (array('host', 'user_id', 'password', 'endpoint_id') as $key)
+        foreach (array('host', 'user_id', 'password', 'endpoint_id', 'connection') as $key)
             $container->setParameter('noetix_traction.'.$key, $config[$key]);
     }
 }

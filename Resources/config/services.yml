@@ -9,7 +9,7 @@ services:
                 endpoint_id: "%noetix_traction.endpoint_id%"
 
     traction.dynamic:
-        class: Traction\Dynamic
+        class: Traction\DynamicHandler
         arguments:
             -
                 connection:  "%noetix_traction.connection%"

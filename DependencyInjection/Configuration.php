@@ -34,6 +34,7 @@ class Configuration implements ConfigurationInterface
                 ->end()
                 ->scalarNode('endpoint_id')
                     ->isRequired()
+	            ->scalarNode('connection')
                 ->end()
             ->end()
         ;

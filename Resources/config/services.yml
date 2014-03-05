@@ -7,3 +7,10 @@ services:
                 user_id:     "%noetix_traction.user_id%"
                 password:    "%noetix_traction.password%"
                 endpoint_id: "%noetix_traction.endpoint_id%"
+
+    traction.dynamic:
+        class: Traction\Dynamic
+        arguments:
+            -
+                connection:  "%noetix_traction.connection%"
+                password:    "%noetix_traction.password%"

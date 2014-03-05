@@ -19,6 +19,11 @@
         {
             "name": "Alex Joyce",
             "email": "im@alex-joyce.com"
-        }
+        },
+	    {
+		    "name": "Craig Morris",
+		    "email": "craig.michael.morris@gmail.com",
+		    "homepage": "http://waww.com.au/"
+	    }
     ]
 }

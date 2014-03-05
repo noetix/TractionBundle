@@ -40,13 +40,13 @@ Configure the bundle in `config.yml`:
 
 To get the classic handler for the Traction Classic API
 
-```
+```php
 $traction = $this->get('traction.handler');
 ```
 
 To get the dynamic handler for the Traciton Dynamic API
 
-```
+```php
 $traction = $this->get('traction.dynamic');
 ```
 
